@@ -17,6 +17,8 @@ a {
 
 li {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 a:hover,
@@ -27,6 +29,31 @@ a:focus
 
 .color {
     color: #2e2f42;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+.container {
+    max-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;  
+    margin-right: 0;
+}
+
+.page-header .container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid cornflowerblue;
+    padding: 24px;
 }
 
 .logo-header {
@@ -40,6 +67,17 @@ a:focus
 }
 
 .nav-header {
+    display: flex;
+    align-items: center;
+}
+
+.nav-header-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.nav-header-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -54,6 +92,12 @@ a:focus
 
 .address-header {
     font-style: normal;
+}
+
+.address-header-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .address-item {
@@ -78,6 +122,10 @@ a:focus
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
+    padding-top: 188px;
+    padding-right: 472px;
+    padding-bottom: 48px;
+    padding-left: 472px;
 }
 
 .main-section-button {
@@ -88,7 +136,13 @@ a:focus
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    margin-top: 64px;
+    margin-bottom: 204px;
 }
 
 .main-section-button:hover,
@@ -114,8 +168,9 @@ a:focus
     color: #434455;
 }
 
-.team-section{
-    background-color: #F4F4FD
+.team-section {
+    background-color: #F4F4FD;
+    text-align: center;
 }
 .team-section-header {
     font-size: 36px;
@@ -141,9 +196,6 @@ a:focus
     color: #434455;
 }
 
-.team-section {
-    text-align: center;
-}
 
 .team-section-item {
     background-color: #FFFFFF;
