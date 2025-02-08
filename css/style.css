@@ -184,6 +184,7 @@ img {
 .second-section-list {
     display: flex;
     gap: 24px;
+    max-width: 1158px;
 }
 
 .second-section-list-item {
@@ -219,6 +220,7 @@ img {
 .team-section-list {
     display: flex;
     gap: 24px;
+    max-width: 1158px;
 }
 
 .team-section-item {
@@ -288,6 +290,7 @@ img {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
+    max-width: 1158px;
 }
 
 .portfolio-section-item {
