@@ -49,11 +49,17 @@ img {
     margin-right: 0;
 }
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+    max-width: 1440px;
+}
+
 .page-header .container {
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid cornflowerblue;
-    padding: 24px;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .logo-header {
@@ -64,11 +70,13 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .nav-header {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .nav-header-list {
@@ -98,6 +106,7 @@ img {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address-item {
@@ -112,20 +121,27 @@ img {
 }
 
 .main-section {
+    display: flex;
     background-color: #2E2F42;
     color: #ffffff;
-    text-align: center;
+    justify-content: center;
 }
 
+.main-section-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    align-items: center;
+}
 .main-section-text {
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
-    padding-top: 188px;
-    padding-right: 472px;
-    padding-bottom: 48px;
-    padding-left: 472px;
+    margin-bottom: 48px;
+    max-width: 496px;
+    text-align: center;
 }
 
 .main-section-button {
@@ -137,17 +153,35 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    margin-top: 64px;
-    margin-bottom: 204px;
+    display: block;
+    width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .main-section-button:hover,
 .main-section-button:focus {
     background-color: #404BBF;
+}
+
+.second-section {
+    padding: 120px 0;
+}
+
+.second-section-container {
+    display: flex;
+   justify-content: center;
+}
+.second-section-list {
+    display: flex;
+    gap: 24px;
+    max-width: 1158px;
+}
+
+.second-section-list-item {
+    width: calc((100%-3*24px)/4);
+    align-items: left;
 }
 
 .second-section-header {
@@ -158,6 +192,8 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: left;
 }
 
 .second-section-text {
