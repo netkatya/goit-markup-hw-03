@@ -181,9 +181,6 @@ img {
     padding: 120px 0;
 }
 
-.second-section .container {
-    display: flex;
-}
 .second-section-list {
     display: flex;
     gap: 24px;
@@ -222,7 +219,12 @@ img {
 .team-section-list {
     display: flex;
     gap: 24px;
-    justify-content: space-between;
+}
+
+.team-section-item {
+    width: calc((100% - 72px) / 4);
+    background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
 }
 
 .team-section-header {
@@ -259,13 +261,6 @@ img {
     line-height: 1.5;
     color: #434455;
     text-align: center;
-}
-
-
-.team-section-item {
-    width: calc((100% - 72px) / 4);
-    background-color: #FFFFFF;
-    border-radius: 0 0 4px 4px;
 }
 
 .portfolio-section {
@@ -341,6 +336,7 @@ img {
 }
 
 .logo-footer {
+    display: inline-block;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -351,9 +347,6 @@ img {
     margin-bottom: 16px;
 }
 
-.page-footer .container a {
-    display: inline-block;
-}
 .color-footer {
     color:#f4f4fd
 }
