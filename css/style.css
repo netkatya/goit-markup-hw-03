@@ -190,7 +190,7 @@ img {
 }
 
 .second-section-list-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .second-section-header {
@@ -263,8 +263,8 @@ img {
 
 
 .team-section-item {
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0 0 4px 4px;
 }
 
@@ -351,6 +351,9 @@ img {
     margin-bottom: 16px;
 }
 
+.page-footer .container a {
+    display: inline-block;
+}
 .color-footer {
     color:#f4f4fd
 }
