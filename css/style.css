@@ -293,7 +293,7 @@ img {
     max-width: 1158px;
 }
 
-.portfolio-section-item {
+.portfolio-section-list-item {
     width: calc((100% - 24px*2) / 3);
 }
 
