@@ -191,7 +191,7 @@ img {
     padding-inline-start: 0;
 }
 
-.second-section-list .second-section-list-item {
+.second-section-list-item {
     flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -347,6 +347,7 @@ img {
 }
 
 .logo-footer {
+    box-sizing: border-box;
     display: inline-block;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
