@@ -340,8 +340,6 @@ img {
 }
 
 .page-footer .container {
-    display: flex;
-    flex-direction: column;
     padding-left: 156px;
 }
 
