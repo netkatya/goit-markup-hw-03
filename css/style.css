@@ -188,6 +188,7 @@ img {
 .second-section-list {
     display: flex;
     gap: 24px;
+    padding-inline-start: 0;
 }
 
 .second-section-list .second-section-list-item {
@@ -226,6 +227,7 @@ img {
 .team-section-list {
     display: flex;
     gap: 24px;
+    padding-inline-start: 0;
 }
 
 .team-section-item {
