@@ -336,18 +336,16 @@ img {
 .page-footer {
     background-color: #2E2F42;
     padding-top: 100px;
-        padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .page-footer .container {
     display: flex;
-    margin-left: 156px;
     flex-direction: column;
-    max-width: 264px;
+    margin-left: 156px;
 }
 
 .logo-footer {
-    box-sizing: border-box;
     display: inline-block;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
@@ -367,4 +365,5 @@ img {
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
