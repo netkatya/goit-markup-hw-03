@@ -220,7 +220,6 @@ img {
 .team-section-list {
     display: flex;
     gap: 24px;
-    max-width: 1128px;
 }
 
 .team-section-item {
