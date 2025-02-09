@@ -220,12 +220,10 @@ img {
 .team-section-list {
     display: flex;
     gap: 24px;
-    max-width: 1158px;
+    max-width: 1128px;
 }
 
 .team-section-item {
-    box-sizing: border-box;
-    border: none;
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
